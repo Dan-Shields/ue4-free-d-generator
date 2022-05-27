@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software for academic purposes, please cite it as below."
+authors:
+  - family-names: Shields
+    given-names: Daniel
+title: "UE4 FreeD Generator"
+version: 1.0.0
+date-released: 2022-05-27
