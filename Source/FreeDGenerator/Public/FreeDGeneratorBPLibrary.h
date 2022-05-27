@@ -27,6 +27,6 @@ class UFreeDGeneratorBPLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_UCLASS_BODY()
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "FreeDGenerator sample test testing"), Category = "FreeDGeneratorTesting")
-	static float FreeDGeneratorSampleFunction(float Param);
+	UFUNCTION(BlueprintCallable, Category = "FreeD", DisplayName = "Generate FreeD Packet")
+	static TArray<uint8> CreateFreeDPacket(FVector position, FRotator rotation);
 };
